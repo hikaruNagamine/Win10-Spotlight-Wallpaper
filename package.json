@@ -1,0 +1,28 @@
+{
+  "name": "win10-spotlight-wallpaper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikaruNagamine/Win10-Spotlight-Wallpaper.git"
+  },
+  "keywords": [
+    "windows10",
+    "spotlight",
+    "wallpaper"
+  ],
+  "author": "hikaru.nagamine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hikaruNagamine/Win10-Spotlight-Wallpaper/issues"
+  },
+  "homepage": "https://github.com/hikaruNagamine/Win10-Spotlight-Wallpaper#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "image-size": "^0.8.3"
+  }
+}
