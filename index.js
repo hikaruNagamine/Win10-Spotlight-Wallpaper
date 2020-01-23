@@ -21,16 +21,26 @@ try {
         if(err) throw err
         let count = 0
         files.forEach((file)=>{
+            let fromFile = path.join(SPOTLIGHT_IMG_PATH, file)
+            let toFile = path.join(TO_FOLDER, file)
             count++
             console.log(count + " : " + file)
             // read image file
+            let dimensions = sizeOf(fromFile);
+            console.log(dimensions.width, dimensions.height);
 
-            // file check : size
+            // file check : 1980 * 1080 size
+            if(dimensions.width != 1920) {
+                return
+            }
 
             // file check : check existence
             
             // file copy
-
+            fs.copyFile(fromFile, toFile + '.' + dimensions.type,(err) => {
+                if (err) throw err;
+            });
+              
         })
     })
 } catch (e) {
