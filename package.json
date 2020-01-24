@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "package": "nexe index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
   },
   "homepage": "https://github.com/hikaruNagamine/Win10-Spotlight-Wallpaper#readme",
   "dependencies": {
-    "fs-extra": "^8.1.0",
     "image-size": "^0.8.3"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.2"
   }
 }

@@ -1,5 +1,4 @@
 'use strict';
-const fse = require('fs-extra')
 const sizeOf = require('image-size')
 const fs = require('fs')
 const path = require('path')
@@ -39,9 +38,6 @@ let main = async () => {
                     return
                 }
     
-                // file check : check existence
-                // TODO
-
                 // file copy
                 fs.copyFile(fromFile, toFile + '.' + dimensions.type,(err) => {
                     if (err) throw err;
