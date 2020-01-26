@@ -1,40 +1,27 @@
 # Win10-Spotlight-Wallpaper
 ----
 
-
-**hoge**
-
 # Requirement
 
-* node 12
-
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-npm run test
-```
+* image-size: "^0.8.3"
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+'Win10-Spotlight-Wallpaper.exe'を実行することで、ユーザーフォルダ配下に”WallpaperPictures”フォルダを作成します。
+そこに壁紙をコピーします。
 
 ```bash
-git clone https://github.com/hoge/~
-cd hoge
+git clone https://github.com/hikaruNagamine/Win10-Spotlight-Wallpaper.git
+cd Win10-Spotlight-Wallpaper
 npm install
 npm run test
 ```
 
 # Note
 
-注意点などがあれば書く
 windows10の画像をコピーします。自己責任でお願いいたします。
 
 # Author
-
-作成情報を列挙する
 
 * Hikaru Nagamine
 
