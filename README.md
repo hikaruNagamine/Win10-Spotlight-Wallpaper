@@ -1,11 +1,10 @@
 # Win10-Spotlight-Wallpaper
-----
 
-# Requirement
+## Requirement
 
 * image-size: "^0.8.3"
 
-# Usage
+## Usage
 
 'Win10-Spotlight-Wallpaper.exe'を実行することで、ユーザーフォルダ配下に”WallpaperPictures”フォルダを作成します。
 そこに壁紙をコピーします。
@@ -17,15 +16,15 @@ npm install
 npm run test
 ```
 
-# Note
+## Note
 
 windows10の画像をコピーします。自己責任でお願いいたします。
 
-# Author
+## Author
 
 * Hikaru Nagamine
 
-# License
+## License
 ライセンスを明示する
 
 "hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
