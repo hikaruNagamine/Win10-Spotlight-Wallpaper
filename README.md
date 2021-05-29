@@ -8,11 +8,11 @@
 
 ## Usage
 
+1. Rereaseから'Win10-Spotlight-Wallpaper.exe'をダウンロード
+1. 'Win10-Spotlight-Wallpaper.exe'を実行することで、ユーザーフォルダ配下に”WallpaperPictures”フォルダを作成します。
+そこに壁紙として画像をコピーします。
 
 ### Repository Clone
-
-'Win10-Spotlight-Wallpaper.exe'を実行することで、ユーザーフォルダ配下に”WallpaperPictures”フォルダを作成します。
-そこに壁紙をコピーします。
 
 ```bash
 git clone https://github.com/hikaruNagamine/Win10-Spotlight-Wallpaper.git
